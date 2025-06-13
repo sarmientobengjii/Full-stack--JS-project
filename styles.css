@@ -1,28 +1,27 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
-  margin: 12px;
+  width: 97vw;
 }
 
-
-#headerContainer {
-  background-color: #ffffff;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
 
 #projectHubHeader {
-  font-size: 24px;
-  color: #291c1c;
-  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 18px;
 }
 
-#navHeader {
-  margin: 20px 0;
+.nav-links {
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
+
 
 #avatarPNG {
+  border: solid 1px #ccc;
   width: 36px;
   height: 36px;
   border-radius: 50%;
@@ -34,6 +33,7 @@ body {
   align-items: center;
   margin: 20px;
   gap: 10px;
+  
 }
 
 #progress-buttons button {
@@ -44,6 +44,7 @@ body {
 
 #search-bar input {
   width: 150px;
+  padding-right: 100px;
 }
 
 .categoryContainer {
@@ -51,15 +52,8 @@ body {
   justify-content: center;
 }
 
-<!-- Category buttons will be styles here -->
-
-
-footer {
-  background-color: #291c1c;
-  color: white;
-  text-align: left;
-  padding: 10px, 10px, 10px, 10px;
-  position: absolute
-  width: 100%;
-  bottom: 0;
+.footer-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
 }
