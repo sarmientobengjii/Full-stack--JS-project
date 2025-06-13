@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 12px;
+}
+
+
+#headerContainer {
+  background-color: #ffffff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#projectHubHeader {
+  font-size: 24px;
+  color: #291c1c;
+  margin: 0;
+}
+
+#navHeader {
+  margin: 20px 0;
+}
+
+#avatarPNG {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+#progressContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  gap: 10px;
+}
+
+#progress-buttons button {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 8px;
+}
+
+#search-bar input {
+  width: 150px;
+}
+
+.categoryContainer {
+  display: flex;
+  justify-content: center;
+}
+
+<!-- Category buttons will be styles here -->
+
+
+footer {
+  background-color: #291c1c;
+  color: white;
+  text-align: left;
+  padding: 10px, 10px, 10px, 10px;
+  position: absolute
+  width: 100%;
+  bottom: 0;
+}
